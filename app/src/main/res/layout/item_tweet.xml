@@ -40,7 +40,10 @@
         android:layout_marginTop="5dp"
         android:layout_toEndOf="@+id/ivProfileImage"
         android:text="TextView"
-        tools:text="TweetBody TweetBody TweetBody TweetBody" />
+        tools:text="TweetBody TweetBody TweetBody TweetBody"
+        android:autoLink="all"
+        android:linksClickable="true"
+        />
 
     <TextView
         android:id="@+id/tvDate"
