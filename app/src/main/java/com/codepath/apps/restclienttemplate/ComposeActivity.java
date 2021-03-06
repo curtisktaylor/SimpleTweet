@@ -93,7 +93,6 @@ public class ComposeActivity extends AppCompatActivity {
                     tvTweetError.setText("Your Tweet is too long!");
                     return;
                 }
-                Toast.makeText(ComposeActivity.this, "Your Tweet", Toast.LENGTH_LONG).show();
                 //make API call to Twitter to publish tweet
                 client.publishTweet(tweetContent, new JsonHttpResponseHandler() {
                     @Override
